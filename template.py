@@ -1,6 +1,8 @@
 import os
+import sys
 from pathlib import Path
 import logging
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
